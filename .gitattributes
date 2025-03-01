@@ -1,3 +1,4 @@
-*.dart linguist-detectable=true
-*.cpp linguist-detectable=false
-*.h linguist-detectable=false
+echo "*.dart linguist-detectable=true" > .gitattributes
+echo "*.cmake linguist-detectable=false" >> .gitattributes
+echo "*.cpp linguist-detectable=false" >> .gitattributes
+echo "*.h linguist-detectable=false" >> .gitattributes
