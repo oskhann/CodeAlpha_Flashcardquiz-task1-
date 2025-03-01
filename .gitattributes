@@ -5,3 +5,6 @@
 *.ico linguist-detectable=false
 *.rc linguist-detectable=false
 windows/ linguist-vendored
+linux/ linguist-vendored
+macos/ linguist-vendored
+web/ linguist-vendored
