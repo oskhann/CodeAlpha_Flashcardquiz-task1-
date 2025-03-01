@@ -1,7 +1,2 @@
-echo "*.dart linguist-detectable=true" > .gitattributes
-echo "*.cpp linguist-detectable=false" >> .gitattributes
-echo "*.cmake linguist-detectable=false" >> .gitattributes
-echo "*.h linguist-detectable=false" >> .gitattributes
-git add .gitattributes
-git commit -m "Fix GitHub language detection to Dart"
-git push origin main
+*.dart linguist-detectable=true
+* linguist-detectable=false
