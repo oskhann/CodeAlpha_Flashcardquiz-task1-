@@ -1,9 +1,15 @@
+# Prioritize Dart
 *.dart linguist-detectable=true
+
+# Ignore non-Dart files
 *.cpp linguist-detectable=false
 *.h linguist-detectable=false
+*.c linguist-detectable=false
 *.cmake linguist-detectable=false
 *.ico linguist-detectable=false
 *.rc linguist-detectable=false
+
+# Treat platform-specific files as vendor (ignored)
 windows/ linguist-vendored
 linux/ linguist-vendored
 macos/ linguist-vendored
