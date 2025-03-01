@@ -2,3 +2,5 @@
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.cmake linguist-vendored
+*.dart linguist-language=Dart
+*.cmake linguist-vendored
