@@ -1,6 +1,7 @@
-echo "*.dart linguist-detectable=true" > .gitattributes
-echo "*.cpp linguist-detectable=false" >> .gitattributes
-echo "*.h linguist-detectable=false" >> .gitattributes
-echo "*.cmake linguist-detectable=false" >> .gitattributes
-echo "*.ico linguist-detectable=false" >> .gitattributes
-echo "*.rc linguist-detectable=false" >> .gitattributes
+*.dart linguist-detectable=true
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.cmake linguist-detectable=false
+*.ico linguist-detectable=false
+*.rc linguist-detectable=false
+windows/ linguist-vendored
