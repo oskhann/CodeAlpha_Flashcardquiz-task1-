@@ -1,4 +1,6 @@
 echo "*.dart linguist-detectable=true" > .gitattributes
-echo "*.cmake linguist-detectable=false" >> .gitattributes
 echo "*.cpp linguist-detectable=false" >> .gitattributes
 echo "*.h linguist-detectable=false" >> .gitattributes
+echo "*.cmake linguist-detectable=false" >> .gitattributes
+echo "*.ico linguist-detectable=false" >> .gitattributes
+echo "*.rc linguist-detectable=false" >> .gitattributes
